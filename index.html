@@ -27,7 +27,11 @@
 		#ninja {
 			font: 2em/0.5em monospace;
 			position: absolute;
+			-moz-transition: all 0.5s ease-out;
+			-ms-transiton: all 0.5s ease-out;
+			-o-transition: all 0.5s ease-out;
 			-webkit-transition: all 0.5s ease-out;
+			transition: all 0.5s ease-out;
 			cursor: crosshair;
 		}
 		
@@ -38,7 +42,11 @@
 		
 		/* Try and shoot him */
 		#ninja:active {
+			-moz-transform: rotateY(180deg) rotateX(180deg) rotateZ(180deg);
+			-ms-transform: rotateY(180deg) rotateX(180deg) rotateZ(180deg);
+			-o-transform: rotateY(180deg) rotateX(180deg) rotateZ(180deg);
 			-webkit-transform: rotateY(180deg) rotateX(180deg) rotateZ(180deg);
+			transform: rotateY(180deg) rotateX(180deg) rotateZ(180deg);
 			opacity: 0;
 		}
 		
