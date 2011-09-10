@@ -1,10 +1,8 @@
- __   _ _____ __   _ _____ _______  _____         _______ _______ _______
- | \  |   |   | \  |   |   |_____| |_____] |      |_____|    |    |______
- |  \_| __|__ |  \_| __|   |     | |       |_____ |     |    |    |______
-
+NINJAPLATE
+==========
 
 HTML 5 NinjaPlate: Curated by Adam Savitzky
-===========================================
+-------------------------------------------
 That's right. This shit just got Ninja. Who needs boilerplate when you can have NINJAPLATE?
 
 HTML 5 NinjaPlate, Based on Paul Irish's team's HTML 5 Boilerplate, is curated weekly to come packaged with a little extra love. You'll get all the benefits of the boilerplate's build script, testing suite, and optimizations, plus all the sweet goodies that ninjas love for building legit web sites.
