@@ -1,0 +1,3 @@
+/* Ninjas are sneaky */
+::-moz-selection { background: black; color: #fff; text-shadow: none; }
+::selection { background: black; color: #fff; text-shadow: none; }
