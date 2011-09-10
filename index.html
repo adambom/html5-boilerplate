@@ -22,6 +22,28 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+	<style>
+		/* {{{$}}} OMG NINJAS {{{$}}} */
+		#ninja {
+			font: 2em/0.5em monospace;
+			position: absolute;
+			-webkit-transition: all 0.5s ease-out;
+			cursor: crosshair;
+		}
+		
+		/* Try and catch him */
+		#ninja:hover {
+			left: 10%;
+		}
+		
+		/* Try and shoot him */
+		#ninja:active {
+			-webkit-transform: rotateY(180deg) rotateX(180deg) rotateZ(180deg);
+		}
+		
+		/* Ninja wins */
+		
+	</style>
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -38,7 +60,7 @@
 
     </header>
     <div id="main" role="main">
-		<pre style="font: 10px/5px monospace;">                                                           
+		<pre id="ninja">                                                           
 
 		     ,                                                     
 		     :                                                     
